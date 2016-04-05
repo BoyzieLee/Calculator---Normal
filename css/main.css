@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.box {
+  margin: auto;
+  width: 400px;
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: lightblue;
+  border: 2px solid #0083c2;
+  border-radius: 8em;
+  box-shadow: 5px 15px 25px #00548b;
+}
+.graident {
+  radial-graident(circle, lightblue, #007cbb)
+}
+
+h1  {
+  text-align: center;
+  font-family: 'Fugaz One', cursive;
+  color: #522719;
+}
+
+.spanx {
+  margin: auto;
+  width: 150px;
+}
+.answer {
+  color: #522719;
+  font-size: 28px;
+  padding-top: 20px;
+}
+footer {
+  margin: 0;
+  margin-right: 78px;
+  padding: 0;
+  text-align: right;
+  font-size: small;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #00548b;
+}
+/*Why dosn't this affect the answer?*/
+/*div .answer span .answer {
+  margin-left: 20px;
+  font-size: 40px;
+}*/
